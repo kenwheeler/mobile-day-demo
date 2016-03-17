@@ -9,12 +9,23 @@ let {
   StyleSheet,
   Text,
   View,
+  PropTypes
 } = React;
+
+const UI_COLOR = "#21257c";
 
 import HomeScreen from './src/index';
 import RouteMapper from './src/utils/route-mapper';
 
 class App extends React.Component {
+  static childContextTypes = {
+    uiColor: PropTypes.string
+  };
+  getChildContext() {
+    return {
+      uiColor: UI_COLOR
+    }
+  }
   _renderScene(route, navigator) {
     var Component = route.component;
     return (
@@ -43,7 +54,7 @@ class App extends React.Component {
 
 let styles = StyleSheet.create({
   navBar: {
-    backgroundColor: '#e74c3c'
+    backgroundColor: UI_COLOR
   }
 });
 

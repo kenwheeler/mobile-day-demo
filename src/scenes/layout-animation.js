@@ -23,7 +23,7 @@ export default class LayoutAnimationDemo extends Component {
   }
   toggleSize() {
     const { width, height } = this.state;
-    LayoutAnimation.configureNext(LayoutAnimation.Presets.spring);
+    LayoutAnimation.configureNext(LayoutAnimation.Presets.linear);
     this.setState({
       width: width === 100 ? 300 : 100,
       height: height === 100 ? 200 : 100
