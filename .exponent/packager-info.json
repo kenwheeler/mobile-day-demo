@@ -1,0 +1,6 @@
+{
+  "packagerPort": 19005,
+  "port": 19004,
+  "ngrok": "http://hu-hmh.thekenwheeler.mobile-day-demo.exp.direct",
+  "packagerNgrok": "https://packager.hu-hmh.thekenwheeler.mobile-day-demo.exp.direct"
+}

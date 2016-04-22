@@ -12,7 +12,7 @@ let {
   PropTypes
 } = React;
 
-const UI_COLOR = "#21257c";
+const UI_COLOR = "rgb(232, 81, 81)";
 
 import HomeScreen from './src/index';
 import RouteMapper from './src/utils/route-mapper';

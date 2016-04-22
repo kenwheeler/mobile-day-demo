@@ -1,0 +1,8 @@
+{
+  "hostType": "localhost",
+  "dev": true,
+  "strict": false,
+  "minify": false,
+  "urlType": "exp",
+  "urlRandomness": "hu-hmh"
+}
